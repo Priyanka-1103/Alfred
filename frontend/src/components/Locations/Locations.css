@@ -1,0 +1,29 @@
+.locations-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    transition: all ease-in-out .3s;
+}
+
+
+.location-heading {
+    user-select: none;
+    font-size: 40px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+}
+
+.location-bottom {
+    width: 91%;
+    margin-top: -25px;
+    margin-bottom: 50px;
+
+    font-size: 15px;
+    text-align: right;
+    transition: all ease-in-out .3s;
+}

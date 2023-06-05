@@ -1,0 +1,4 @@
+.location-container {
+    user-select: none;
+    transition: all ease-in-out .3s;
+}
