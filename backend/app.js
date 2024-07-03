@@ -13,7 +13,7 @@ app.use(morgan('dev'))
 app.use(cors())
 
 mongoose.set("strictQuery", false)
-mongoose.connect("mongodb+srv://prabhleen:Sky1111@cluster0.nmqfc35.mongodb.net/Alfred?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://Priyanka_05:PriyankaPassword@cluster0.jvljhqu.mongodb.net/Alfred?retryWrites=true&w=majority")
     .then(console.log('Connected to the DB'))
     .catch(err => console.log(err))
 
